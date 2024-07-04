@@ -1,0 +1,124 @@
+:root {
+    --font: Verdana, Geneva, Tahoma, sans-serif;
+    --white: #ffffff;
+    --dark: #212529;
+    --gray: #6c757d;
+    --blue: #0dcaf0;
+    --blue-navy: #212529;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: var(--font);
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+hr {
+    height: 1px;
+    border-color: var(--blue);
+    opacity: 15%;
+}
+
+h1 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.contenedorInputs {
+    background-color: var(--gray);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto 0 auto;
+    padding: 50px 20px;
+}
+
+.contenedorInputs input,
+.contenedorInputs select,
+.contenedorInputs button {
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    padding: 0 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contenedorInputs button {
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.labelMoneda {
+    margin-top: 15px;
+}
+
+span {
+    margin-top: 30px;
+    color: var(--white);
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.monto {
+    font-size: 20px;
+}
+
+.seccionRender {
+    max-width: 400px;
+    margin: auto;
+    background-color: var(--white);
+    color: var(--dark);
+    padding: 30px;
+}
+.resultado {
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#grafico {
+    margin-top:15px;
+}
+
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .monto {
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
